@@ -302,7 +302,7 @@ The .rounded-circle class shapes the image to a circle.
 
 
 ```
-
+ ![alt text](<Screenshot from 2024-08-17 13-57-44.png>)
 
 
 ## Bootstrap 5 Jumbotron
