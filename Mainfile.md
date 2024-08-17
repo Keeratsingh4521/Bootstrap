@@ -630,7 +630,7 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 </html>
 
 ```
-![alt text](<Screenshot from 2024-07-30 16-57-02.png>)
+![alt text](<Screenshot from 2024-08-17 14-37-53.png>)
 
 ## Bootstrap 5 Forms
 
