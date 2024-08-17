@@ -266,7 +266,8 @@ The .**table-dark** class adds a black background to the table.
 
 ```
 ```bash
-![Screenshot from 2024-08-17 13-57-44](https://github.com/user-attachments/assets/fcafd0da-39b3-4cff-8c09-dcdb19118ca9)
+![Screenshot from 2024-08-17 13-57-44](https://github.com/user-attachments/assets/53c90740-c0d3-4843-b5ae-274275cdc1f8)
+
 
 ```
 
