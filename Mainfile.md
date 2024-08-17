@@ -508,9 +508,6 @@ By default, bootstrap pages have a white (light) background color.
 
 If you want to change the whole page to a darker color, you can add `data-bs-theme="dark"` to the html element:
 
-```bash
-<table class="table" data-bs-theme="dark">
-```
 
 ![alt text](<Screenshot from 2024-07-30 15-07-09.png>)
 
