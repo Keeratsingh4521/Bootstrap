@@ -649,7 +649,7 @@ A Bootstrap form is just an HTML form that uses Bootstrap to make it look better
 <body>
 
 <div class="container mt-3">
-  <form action="/action_page.php">
+  <form>
     <div class="mb-3 mt-3">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -674,7 +674,7 @@ A Bootstrap form is just an HTML form that uses Bootstrap to make it look better
 ```
 ![alt text](<Screenshot from 2024-07-30 16-57-02.png>)
 
-![alt text](<Screenshot from 2024-07-30 16-58-45.png>)
+
 
 ## Bootstrap Breakpoints
 
