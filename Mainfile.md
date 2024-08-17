@@ -240,7 +240,7 @@ The .**table-dark** class adds a black background to the table.
 
    The **.rounded** class adds rounded corners to an image.
 ```bash
-    <img src="" class="rounded" alt=""> 
+    <img src="bt.png" class="rounded" alt=""> 
 ```
 
 ```bash
@@ -258,7 +258,7 @@ The .**table-dark** class adds a black background to the table.
 <div class="container mt-3">
   <h2>Rounded Corners</h2>
   <p>The .rounded class adds rounded corners to an image:</p>            
-  <img src="Screenshot from 2024-07-29 12-38-12.png" class="rounded" alt="image" width="304" height="236"> 
+  <img src="bt.png" class="rounded" alt="image" width="304" height="236"> 
 </div>
 
 </body>
