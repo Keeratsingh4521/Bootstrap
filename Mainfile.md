@@ -44,16 +44,14 @@
 
 
 ## Introduction
-
-
-    Bootstrap 5 is a free front-end framework for faster and easier web development.
+ Bootstrap 5 is a free front-end framework for faster and easier web development.
     Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navbar, image as well as optional JavaScript plugins.
     Bootstrap 5 also gives you the ability to easily create responsive web designs.
 
 
 ## Installation
 
-Installation bootstrap using **npm** (node package manager).
+Install bootstrap using **npm** (node package manager).
 
 **npm** is a package manager for the javascript programing language.
 **npm** allows to install packages and manage dependencies.
@@ -62,9 +60,9 @@ Installation bootstrap using **npm** (node package manager).
 npm install bootstrap@5.3.3
 ```
 
-Installation bootstrap using **CDN** (content delivery network).
+Install bootstrap using **CDN** (content delivery network).
 
-**CDN** is like a distirbuted network spread across different places that helps in the delivery of the content(images,videos,photos) to the users more easily and quickly.
+**CDN** is like a distirbuted network of servers spread across different places that helps in the delivery of the content(images,videos,photos) to the users more easily and quickly.
 
 
 ```bash
@@ -247,6 +245,30 @@ The .**table-dark** class adds a black background to the table.
     <img src="" class="rounded" alt=""> 
 ```
 
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Round Image</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>Rounded Corners</h2>
+  <p>The .rounded class adds rounded corners to an image:</p>            
+  <img src="" class="rounded" alt="image" width="304" height="236"> 
+</div>
+
+</body>
+</html>
+
+```
+
+
    - Circle
 
 The .rounded-circle class shapes the image to a circle.
@@ -254,6 +276,31 @@ The .rounded-circle class shapes the image to a circle.
 ```bash
  <img src="" class="rounded-circle" alt=""> 
 ```
+```bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Circle Image</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h2>Circle</h2>
+  <p>The .rounded-circle class shapes the image to a circle:</p>            
+  <img src="" class="rounded-circle" alt="image" width="304" height="236"> 
+</div>
+
+</body>
+</html>
+
+
+```
+
+
 
 ## Bootstrap 5 Jumbotron
 
@@ -297,7 +344,7 @@ Bootstrap 5 provides different styles of buttons:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Buttons</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -346,7 +393,7 @@ Bootstrap 5 provides an easy way to create predefined alert messages:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Alerts</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -401,7 +448,7 @@ A navigation bar is a navigation header that is placed at the top of the page.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Navbar</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -409,30 +456,41 @@ A navigation bar is a navigation header that is placed at the top of the page.
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-light">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
   <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
+    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
   </div>
 </nav>
 
 <div class="container-fluid mt-3">
-  <h3>Basic Navbar Example</h3>
-  <p>A navigation bar is a navigation header that is placed at the top of the page.</p>
-  <p>The navbar-expand-xxl|xl|lg|md|sm class determines when the navbar should stack vertically (on xxlarge, extra large, large, medium or small screens).</p>
+  <h3>Navbar Forms</h3>
+  <p>You can also include forms inside the navigation bar.</p>
 </div>
 
 </body>
 </html>
+
+
 
 ```
 
@@ -452,6 +510,28 @@ If you want to change the whole page to a darker color, you can add `data-bs-the
 ```
 
 ![alt text](<Screenshot from 2024-07-30 15-07-09.png>)
+
+```bash
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <title>Dark Theme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <h1>My Page</h1>
+  <p>hello</p>
+ </div>
+
+</body>
+</html>
+
+```
 
 
 ## Bootstrap 5 Tooltip
@@ -595,23 +675,23 @@ A Bootstrap form is just an HTML form that uses Bootstrap to make it look better
 
 ## Bootstrap Breakpoints
 
-Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These breakpoints can be customized if you’re using our source Sass files.
+Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These breakpoints can be customized if you’re using source Sass files.
 
 ```bash
 Breakpoint    	Classinfix 	      Dimensions
 
-X-Small 	      None 	            <576px
-Small 	          sm 	            ≥576px
-Medium 	          md 	            ≥768px
-Large 	          lg 	            ≥992px
-Extra            large xl 	        ≥1200px
-Extra          extra large xxl 	    ≥1400px
+X-Small 	      None 	              <576px
+Small 	          sm 	              ≥576px
+Medium 	          md 	              ≥768px
+Large 	          lg 	              ≥992px
+Extra           large xl 	          ≥1200px
+Extra         extra large xxl 	    ≥1400px
 
 ```
 
 ## Conclusion
 
-By using Bootstrap, developers can significantly reduce the time and effort required to build and maintain high-quality websites. Bootstraps simplifies the development of responsive websites.
+By using Bootstrap, developers can reduce the time and effort required to build and maintain high-quality websites. Bootstraps simplifies the development of responsive websites.
 
 ## Referance
 
