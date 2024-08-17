@@ -265,11 +265,11 @@ The .**table-dark** class adds a black background to the table.
 </html>
 
 ```
-```bash
-![Screenshot from 2024-08-17 13-57-44](https://github.com/user-attachments/assets/53c90740-c0d3-4843-b5ae-274275cdc1f8)
+
+ ![alt text](<Screenshot from 2024-08-17 13-57-44.png>)
 
 
-```
+
 
 
    - Circle
