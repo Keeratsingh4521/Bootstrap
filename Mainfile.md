@@ -62,7 +62,7 @@ npm install bootstrap@5.3.3
 
 Install bootstrap using **CDN** (content delivery network).
 
-**CDN** is like a distirbuted network of servers spread across different places that helps in the delivery of the content(images,videos,photos) to the users more easily and quickly.
+**CDN** is like a distributed network of servers spread across different places that helps in the delivery of the content(images,videos,photos) to the users more easily and quickly.
 
 
 ```bash
