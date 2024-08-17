@@ -277,7 +277,7 @@ The .**table-dark** class adds a black background to the table.
 The .rounded-circle class shapes the image to a circle.
 
 ```bash
- <img src="" class="rounded-circle" alt=""> 
+ <img src="bt.png" class="rounded-circle" alt=""> 
 ```
 ```bash
 <!DOCTYPE html>
@@ -294,7 +294,7 @@ The .rounded-circle class shapes the image to a circle.
 <div class="container mt-3">
   <h2>Circle</h2>
   <p>The .rounded-circle class shapes the image to a circle:</p>            
-  <img src="Screenshot from 2024-07-29 12-38-12.png" class="rounded-circle" alt="image" width="304" height="236"> 
+  <img src="bt.png" class="rounded-circle" alt="image" width="304" height="236"> 
 </div>
 
 </body>
