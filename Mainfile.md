@@ -266,7 +266,7 @@ The .**table-dark** class adds a black background to the table.
 
 ```
 
- ![alt text](<Screenshot from 2024-08-17 13-57-44.png>)
+ ![alt text](<Screenshot from 2024-08-17 14-27-48.png>)
 
 
 
