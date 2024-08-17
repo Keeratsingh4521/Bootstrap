@@ -140,10 +140,9 @@ Install bootstrap using **CDN** (content delivery network).
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>a
+<body>
 
 <div class="container mt-3">
-  <h2>Contextual Colors</h2>
   
   <p class="text-muted">Hi! everyone</p>
   <p class="text-primary">Hi! everyone</p>
@@ -176,7 +175,7 @@ The **.table** class adds basic styling to a table.
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Table</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -185,8 +184,7 @@ The **.table** class adds basic styling to a table.
 <body>
 
 <div class="container mt-3">
-  <h2>Basic Table</h2>
-  <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>            
+              
   <table class="table">
     <thead>
       <tr>
@@ -260,7 +258,7 @@ The .**table-dark** class adds a black background to the table.
 <div class="container mt-3">
   <h2>Rounded Corners</h2>
   <p>The .rounded class adds rounded corners to an image:</p>            
-  <img src="" class="rounded" alt="image" width="304" height="236"> 
+  <img src="Screenshot from 2024-07-29 12-38-12.png" class="rounded" alt="image" width="304" height="236"> 
 </div>
 
 </body>
@@ -291,7 +289,7 @@ The .rounded-circle class shapes the image to a circle.
 <div class="container mt-3">
   <h2>Circle</h2>
   <p>The .rounded-circle class shapes the image to a circle:</p>            
-  <img src="" class="rounded-circle" alt="image" width="304" height="236"> 
+  <img src="Screenshot from 2024-07-29 12-38-12.png" class="rounded-circle" alt="image" width="304" height="236"> 
 </div>
 
 </body>
