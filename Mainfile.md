@@ -678,7 +678,7 @@ A Bootstrap form is just an HTML form that uses Bootstrap to make it look better
 
 ## Bootstrap Breakpoints
 
-Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These breakpoints can be customized if you’re using source Sass files.
+Bootstrap includes six default breakpoints, for building responsively. These breakpoints can be customized if you’re using source Sass files.
 
 ```bash
 Breakpoint    	Classinfix 	      Dimensions
